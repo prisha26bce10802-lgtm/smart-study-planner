@@ -1,0 +1,50 @@
+Smart Study Planner — Project Statement
+1. Introduction
+Students often have to manage multiple subjects, assignments, deadlines, and study sessions at the same time. Without proper planning, it can become difficult to keep track of academic tasks and measure progress.
+The Smart Study Planner is a Python-based application designed to help students organize their studies in a simple and systematic way.
+2. Problem Statement
+Students need an easy-to-use system to:
+- Maintain a list of subjects
+- Record assignments and academic tasks
+- Keep track of deadlines
+- Create study schedules
+- Mark completed tasks
+- Monitor overall progress
+- Generate a summary of their academic activities
+The proposed system provides these functions through a simple command-line interface.
+3. Objectives
+The main objectives of the project are:
+1. To develop a simple academic planning system.
+2. To help students organize their subjects and tasks.
+3. To maintain study schedules.
+4. To track completed and pending assignments.
+5. To calculate study progress.
+6. To generate useful study reports.
+7. To demonstrate modular programming in Python.
+8. To implement data storage using JSON files.
+4. Proposed Solution
+The Smart Study Planner divides the application into multiple Python modules. Each module performs a specific function, making the program easier to understand, maintain, and modify.
+The system provides options for adding subjects, managing tasks, scheduling study sessions, calculating progress, generating reports, and storing information.
+5. Modules
+The project contains the following modules:
+- main.py — Controls the application and main menu.
+- subjects.py — Manages subjects.
+- tasks.py — Manages assignments and tasks.
+- schedule.py — Manages study sessions.
+- progress.py — Calculates task completion progress.
+- reports.py — Generates study reports.
+- storage.py — Saves and loads data using JSON.
+6. Expected Outcome
+The completed application will provide students with a simple tool for organizing their academic activities. It will also demonstrate practical implementation of Python concepts such as functions, lists, dictionaries, loops, conditional statements, modules, exception handling, and file handling.
+7. Future Scope
+Future versions can include:
+- User login system
+- Exam timetable
+- Assignment priorities
+- Automatic timetable generation
+- Reminder notifications
+- Graphical user interface
+- Database integration
+- Subject-wise progress charts
+8. Conclusion
+The Smart Study Planner is a practical Python project that combines academic planning with fundamental programming concepts. It provides a structured way to manage study activities while demonstrating the use of multiple Python modules and persistent data storage.
